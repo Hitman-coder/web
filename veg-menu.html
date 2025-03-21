@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veg Menu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #121212;
+            color: white;
+        }
+
+        .menu {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+            margin: 20px 0;
+            width: 100%;
+            max-width: 800px;
+        }
+
+        .menu-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            background: #ffffff;
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .menu-item img {
+            width: 150px;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .menu-item .details {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-left: 20px;
+            flex-grow: 1;
+        }
+
+        .menu-item .details .name {
+            font-size: 18px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .menu-item .details .price {
+            font-size: 16px;
+            color: #555;
+        }
+
+        .menu-item .details .description {
+            font-size: 14px;
+            color: #777;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Veg Menu</h1>
+    <div class="menu">
+        <div class="menu-item">
+            <img src="https://www.cubesnjuliennes.com/wp-content/uploads/2020/07/Instant-Pot-Mumbai-Pav-Bhaji-Recipe.jpg" alt="Pav Bhaji">
+            <div class="details">
+                <span class="name"><strong>Name: </strong>Pav Bhaji</span>
+                <span class="price"><strong>Price: </strong>₹200</span>
+                <p class="description">Spicy mashed vegetable curry served with buttered pav.</p>
+            </div>
+        </div>
+        
+        <div class="menu-item">
+            <img src="https://www.sharmispassions.com/wp-content/uploads/2023/08/PaneerFry03-500x500.jpg" alt="Paneer Fry">
+            <div class="details">
+                <span class="name"><strong>Name: </strong>Paneer Fry</span>
+                <span class="price"><strong>Price: </strong>₹300</span>
+                <p class="description">Crispy fried paneer cubes coated with flavorful spices.</p>
+            </div>
+        </div>
+        
+        <div class="menu-item">
+            <img src="https://static.wixstatic.com/media/91e241_0cf76aa5613b4055be2f922f71edeaa0~mv2.jpg/v1/fill/w_560,h_372,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Ustaadi%20Hyderabadi%20Veg%20Biryani.jpg" alt="Veg Biryani">
+            <div class="details">
+                <span class="name"><strong>Name: </strong>Veg Biryani</span>
+                <span class="price"><strong>Price: </strong>₹250</span>
+                <p class="description">Fragrant basmati rice cooked with fresh vegetables and aromatic spices.</p>
+            </div>
+        </div>
+        
+        <div class="menu-item">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpe3aFwYxEcmYJZNPbbNhRIxrGuX8F40-GQw&s" alt="Mushroom Masala">
+            <div class="details">
+                <span class="name"><strong>Name: </strong>Mushroom Masala</span>
+                <span class="price"><strong>Price: </strong>₹280</span>
+                <p class="description">Mushrooms cooked in a rich, spiced tomato and onion gravy.</p>
+            </div>
+        </div>
+        
+        <div class="menu-item">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqmA-h4zQxjEUfvUNKcaX5phC3YME1NEQrLg&s" alt="Aloo Paratha">
+            <div class="details">
+                <span class="name"><strong>Name: </strong>Aloo Paratha</span>
+                <span class="price"><strong>Price: </strong>₹180</span>
+                <p class="description">Stuffed wheat flatbread with spiced mashed potatoes, served with yogurt.</p>
+            </div>
+        </div>
+        
+        <a href="Home.html"><button>BACK</button></a>
+    </div>
+</body>
+</html>

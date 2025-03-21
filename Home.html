@@ -7,26 +7,23 @@
     <link rel="stylesheet" href="../CSS/Home.css" />
   </head>
   <body>
-    <header>
+    <header id="header">
+      <button class="menu-btn" onclick="toggleHeader()">☰</button>
       <div class="left">
-        <img src="../../assest/logo-removebg-preview.png" alt="Logo" />
-
-        <input
-          class="food-search"
-          type="search"
-          placeholder="Input the food u want to order"
-        />
+          <img src="../../assest/logo-removebg-preview.png" alt="Logo" />
+          <input class="food-search" type="search" placeholder="Input the food u want to order" />
       </div>
       <div class="rigth">
-        <select name="" id="">
-          <option value="">select location</option>
-          <option value="">Virar</option>
-          <option value="">Vasis</option>
-        </select>
-        <a href="login.html"> <button>Login</button></a>
-        <button>add restaurant</button>
+          <select>
+              <option value="">Select location</option>
+              <option value="">Virar</option>
+              <option value="">Vasis</option>
+          </select>
+          <a href="login.html"><button>Login</button></a>
+          <button>Add Restaurant</button>
       </div>
-    </header>
+  </header>
+  
 
     <!-- Baneer section -->
 
@@ -130,5 +127,11 @@
 </div>
    <!-- Chatbot End -->
     <!-- form container -->
+    <script>
+      function toggleHeader() {
+          document.getElementById("header").classList.toggle("show");
+      }
+  </script>
+  
   </body>
 </html>

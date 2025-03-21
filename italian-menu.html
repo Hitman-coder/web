@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Italian Menu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #121212;
+            color: white;
+        }
+
+        h1 {
+            font-size: 32px;
+            margin: 20px 0;
+            text-align: center;
+            text-transform: uppercase;
+        }
+
+        .menu {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+            margin: 20px 0;
+            width: 100%;
+            max-width: 800px;
+        }
+
+        .menu-item {
+            display: flex;
+            align-items: center;
+            width: 100%;
+            background: #ffffff;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        }
+
+        .menu-item img {
+            width: 130px;
+            height: 100px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px black;
+            object-fit: cover;
+        }
+
+        .menu-item .details {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-left: 20px;
+            color: #333;
+        }
+
+        .menu-item .details .name {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .menu-item .details .price {
+            font-size: 16px;
+            color: #ff5722;
+            font-weight: bold;
+        }
+
+        .menu-item .details .description {
+            font-size: 14px;
+            color: #666;
+            margin-top: 5px;
+        }
+
+        .back-button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 18px;
+            background: #ff9800;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .back-button:hover {
+            background: #e68900;
+        }
+
+    </style>
+</head>
+<body>
+
+    <h1>Italian Menu</h1>
+    
+    <div class="menu">
+        <div class="menu-item">
+            <img src="https://assets.epicurious.com/photos/5988e3458e3ab375fe3c0caf/1:1/w_3607,h_3607,c_limit/How-to-Make-Chicken-Alfredo-Pasta-hero-02082017.jpg" alt="Pasta">
+            <div class="details">
+                <span class="name">Pasta</span>
+                <span class="price">₹250</span>
+                <p class="description">Classic Italian pasta with rich tomato sauce and parmesan cheese.</p>
+            </div>
+        </div>
+
+        <div class="menu-item">
+            <img src="https://bhukkadcompany.com/wp/wp-content/uploads/2024/06/21-Best-Pizzas-in-Mumbai-You-Must-Try-A-Pizza-Lovers-Paradise-1-710x473.png" alt="Pizza">
+            <div class="details">
+                <span class="name">Pizza</span>
+                <span class="price">₹350</span>
+                <p class="description">Authentic Italian pizza with fresh mozzarella and basil.</p>
+            </div>
+        </div>
+
+        <div class="menu-item">
+            <img src="https://hips.hearstapps.com/hmg-prod/images/classic-lasagna-secondary-6430791f9451c.jpg?crop=1xw:0.9992331288343558xh;center,top&resize=980:*" alt="Lasagna">
+            <div class="details">
+                <span class="name">Lasagna</span>
+                <span class="price">₹400</span>
+                <p class="description">Layered pasta with creamy béchamel sauce and minced meat.</p>
+            </div>
+        </div>
+
+        <div class="menu-item">
+            <img src="https://hips.hearstapps.com/hmg-prod/images/del089923-risotto-web-001-ab-index-64e7a1083b54e.jpg?crop=0.8888888888888888xw:1xh;center,top&resize=1200:*" alt="Risotto">
+            <div class="details">
+                <span class="name">Risotto</span>
+                <span class="price">₹300</span>
+                <p class="description">Creamy Italian rice dish with mushrooms and parmesan.</p>
+            </div>
+        </div>
+
+        <div class="menu-item">
+            <img src="https://simshomekitchen.com/wp-content/uploads/2023/08/Tiramisu-birthday-cake-recipe.jpg" alt="Tiramisu">
+            <div class="details">
+                <span class="name">Tiramisu</span>
+                <span class="price">₹200</span>
+                <p class="description">Classic Italian dessert with layers of coffee-soaked ladyfingers.</p>
+            </div>
+        </div>
+
+        <a href="Home.html"><button class="back-button">BACK</button></a>
+    </div>
+
+</body>
+</html>
